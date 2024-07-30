@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className={navScroll}>
         <div className="max-w-screen-xl flex   flex-wrap items-center justify-between mx-auto p-4">
           <Link
-            to=""
+            to="/startFramework-react"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl  font-[700] whitespace-nowrap dark:text-white text-[25px] md:text-[32px] uppercase ">
