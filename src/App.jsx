@@ -13,9 +13,9 @@ function App() {
       element: <Layout />,
       children: [
         { path: '/startFramework-react/about', element: <About /> },
-        { path: 'startFramework-react/portfolio', element: <Portfolio /> },
-        { path: 'startFramework-react/contact', element: <Contact /> },
-        { path: 'startFramework-react', element: <Home /> },
+        { path: '/startFramework-react/portfolio', element: <Portfolio /> },
+        { path: '/startFramework-react/contact', element: <Contact /> },
+        { path: '/startFramework-react', element: <Home /> },
         { path: '*', element: <Error /> },
       ],
     },
